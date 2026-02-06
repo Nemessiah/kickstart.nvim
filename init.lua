@@ -657,6 +657,11 @@ require('lazy').setup({
       -- You can press `g?` for help in this menu.
       local ensure_installed = vim.tbl_keys(servers or {})
       vim.list_extend(ensure_installed, {
+<<<<<<< HEAD
+=======
+        'lua-language-server', -- Lua Language server
+        'stylua', -- Used to format Lua code
+>>>>>>> 58c91b8 (change server per issue at: https://github.com/nvim-lua/kickstart.nvim/issues/1858)
         -- You can add other tools here that you want Mason to install
       })
 
